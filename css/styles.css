@@ -1,0 +1,35 @@
+#container {
+	width: 40%;
+}
+
+#calculator {
+	margin-left: auto;
+	margin-right: auto;
+	width: 75%;
+}
+
+#operators {
+	float: right;
+	width: 20%;
+}
+
+.number {
+	font-size: 48px;
+	background-color: lightblue;
+	border: 1px solid black;
+	padding: 2px;
+	margin: 2px;
+	width: 100px;
+	height: 100px;
+	display: inline;
+}
+
+.operator {
+	background-color: gray;
+	border-radius: 10px;
+	width: 40px;
+	height: 40px;
+	padding: 2px;
+	margin: 2px;
+	text-align: center;
+}
